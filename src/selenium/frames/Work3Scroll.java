@@ -35,12 +35,12 @@ public class Work3Scroll {
 //		 System.out.println(tables.findElements(By.tagName("tr")).size());
 		 int rows=0;
 		 int column=0;
-		 for (int i=0; i<tables.findElements(By.tagName("th")).size(); i++) {
+		 for (int i=0; i<tables.findElements(By.tagName("th")).size(); i++) { //rows
 			 
 			 System.out.println(tables.findElements(By.tagName("th")).get(i).getText());
 		 
 		 }
-			 for(int y=0; y<tables.findElements(By.tagName("td")).size(); y++) {
+			 for(int y=0; y<tables.findElements(By.tagName("td")).size(); y++) {//count columns
 				 
 				 System.out.println(tables.findElements(By.tagName("td")).get(y).getText());
 //				 column++;
@@ -54,15 +54,5 @@ public class Work3Scroll {
 			
 		 }
 
-	// th columns 3
-//				 System.out.println(tables.findElements(By.tagName("tr")).get(0).findElements(By.tagName("th")).size());
-//				 
-//				List <WebElement> value2=driver.findElements(By.tagName("tr")).get(1).findElements(By.tagName("td"));
-//				
-//				System.out.println(value2.get(0).getText());
-//				System.out.println(value2.get(1).getText());
-//				System.out.println(value2.get(2).getText());
-//				
 
-//
 
